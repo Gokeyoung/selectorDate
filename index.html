@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script type="text/javascript" src="selectDate.js"></script>
+		<title></title>
+		<style>
+			#date{
+				font-size: 12px;
+			}
+			#date select{
+				display: inline-block;
+			    width: 90px;
+			    color: #777;
+			    height: 32px;
+			    padding: 6px;
+			    font-size: 12px;
+			    cursor: pointer;
+			    vertical-align: middle;
+			    margin: 5px;
+			    border-color: #dedede;
+			    border-radius: 2px;
+			    font-size: 12px;
+			    line-height: 1.42857143;
+			    color: #555;
+			    background-color: #fff;
+			    border: 1px solid #dedede;
+			    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+			    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+			    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="date"></div>
+		<script type="text/javascript">
+			$().ready(function(){
+				$("#date").selectDate();
+			})
+		</script>
+	</body>
+</html>
