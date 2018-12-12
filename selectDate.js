@@ -13,7 +13,7 @@
 			monthClass: "monthDate", //月
 			dayClass: "dayDate", //天
 			dataClass: "dataDate", //input
-			dateJoin: "-", //数据连接
+			dateJoin: "-", //日期join
 			today: true, //是否开启当前时间 默认为true
 			//自定义设置时间  开启会优先于 默认时间
 			newDate: {
