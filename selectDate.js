@@ -3,8 +3,7 @@
  * url: www.iduhua.com
  */
 ;(function($) {
-	"use strict";
-
+	
 	function selectorDate(element, settings) {
 		this.element = element;
 		this.defaults = {
